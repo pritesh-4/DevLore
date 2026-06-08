@@ -1,16 +1,247 @@
-# React + Vite
+# 🌸 DevLore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern quiz platform built with **React**, **Vite**, **Axios**, and **Open Trivia DB API** that allows users to test their knowledge across multiple categories, track performance, and review past quiz attempts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Overview
 
-## React Compiler
+DevLore is a dynamic quiz application designed to provide a smooth and engaging learning experience. Instead of relying on hardcoded questions, quizzes are fetched in real time from an external API, allowing users to explore a wide range of topics and difficulty levels.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The project focuses on practical React concepts including:
 
-## Expanding the ESLint configuration
+* Component-based architecture
+* State management with Hooks
+* API integration with Axios
+* React Router navigation
+* Local Storage persistence
+* Dynamic rendering
+* Performance tracking and analytics
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Live Demo
+
+🔗 **Website:** [ADD VERCEL LINK HERE]
+
+🔗 **GitHub Repository:** [(https://github.com/pritesh-4/DevLore)]
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+
+[INSERT HOME PAGE SCREENSHOT]
+
+---
+
+### Quiz Setup
+
+[INSERT QUIZ SETUP SCREENSHOT]
+
+---
+
+### Quiz Interface
+
+[INSERT QUIZ SCREENSHOT]
+
+---
+
+### Results Page
+
+[INSERT RESULTS PAGE SCREENSHOT]
+
+---
+
+### Dashboard Analytics
+
+[INSERT DASHBOARD SCREENSHOT]
+
+---
+
+## 🎯 Features
+
+### Quiz Configuration
+
+* Choose quiz category
+* Select difficulty level
+* Choose number of questions
+* Dynamic question generation
+
+### Quiz Experience
+
+* Randomized answer positions
+* Real-time timer
+* Instant answer selection
+* Score tracking
+
+### Results
+
+* Final score calculation
+* Accuracy percentage
+* Completion time tracking
+* Save result functionality
+
+### Dashboard
+
+* Total quizzes completed
+* Highest score achieved
+* Total time spent
+* Recent quiz activity
+* Average performance analytics
+
+### Data Persistence
+
+* Quiz history stored using Local Storage
+* Progress remains available after page refresh
+* Saved results accessible from dashboard
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* React
+* React Router DOM
+* Vite
+* CSS
+
+### API
+
+* Open Trivia DB API
+
+### Storage
+
+* Browser Local Storage
+
+### HTTP Client
+
+* Axios
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Navbar.jsx
+│   ├── Footer.jsx
+│   ├── Hero.jsx
+│   └── Statsection.jsx
+│   ├── StatCard.jsx
+│   └── Activity.jsx
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── QuizSetup.jsx
+│   ├── Quiz.jsx
+│   ├── Result.jsx
+│   └── Dashboard,jsx
+│
+├── App.jsx
+├── main.jsx
+│
+└── assets/
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone [YOUR_REPOSITORY_URL]
+```
+
+Navigate into the project:
+
+```bash
+cd DevLore
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📚 Concepts Practiced
+
+This project helped me learn and apply:
+
+* React Components
+* Props
+* useState
+* useEffect
+* Conditional Rendering
+* Lists and Mapping
+* API Fetching
+* Axios
+* React Router
+* Local Storage
+* State Management
+* Dashboard Design
+* Error Handling
+
+---
+
+## 🔮 Future Improvements
+
+Planned features for future versions:
+
+* User authentication
+* Global leaderboard
+* Dark mode
+* User profiles
+* Quiz categories analytics
+* Difficulty-based statistics
+* Backend database integration
+* Achievement system
+* Streak tracking
+
+---
+
+## 🧠 Challenges Faced
+
+During development, several challenges were solved:
+
+* Dynamic API integration
+* Handling API failures
+* Random answer shuffling
+* Accurate score calculation
+* Preserving quiz history
+* Managing navigation state
+* Preventing duplicate result saves
+
+These challenges helped strengthen understanding of React application development and debugging.
+
+---
+
+## 👨‍💻 Author
+
+**Pritesh Jena**
+
+Built as a learning project to explore modern React development, API integration, and frontend application architecture.
+
+---
+
+## ⭐ Support
+
+If you found this project interesting, consider giving the repository a star.
