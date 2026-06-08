@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
   return (
     <div className='navbar'>
-        <div className='title'>Dev<span className='title-highlight'>Lore</span><span className='flower' aria-hidden="true">🌸</span></div>
+        <div className='title'>Dev<span className='title-highlight'>Lore</span></div>
           <ul className='sections'>
                 <li><a href="/">Home</a></li>
                 <li><a href="/quizsetup">Start quiz</a></li>

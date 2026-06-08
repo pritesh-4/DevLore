@@ -32,31 +32,31 @@ The project focuses on practical React concepts including:
 
 ### Home Page
 
-[INSERT HOME PAGE SCREENSHOT]
+![Home Page](./public/screenshots/home.png)
 
 ---
 
 ### Quiz Setup
 
-[INSERT QUIZ SETUP SCREENSHOT]
+![Quiz setup](./public/screenshots/quizsetup.png)
 
 ---
 
 ### Quiz Interface
 
-[INSERT QUIZ SCREENSHOT]
+![Quiz](./public/screenshots/quiz.png)
 
 ---
 
 ### Results Page
 
-[INSERT RESULTS PAGE SCREENSHOT]
+![Result](./public/screenshots/result.png)
 
 ---
 
 ### Dashboard Analytics
 
-[INSERT DASHBOARD SCREENSHOT]
+![Dashboard](./public/screenshots/dashboard.png)
 
 ---
 
@@ -153,7 +153,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone [YOUR_REPOSITORY_URL]
+git clone https://github.com/pritesh-4/DevLore.git
 ```
 
 Navigate into the project:

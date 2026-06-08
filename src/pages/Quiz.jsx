@@ -104,7 +104,7 @@ if(error){
 }
 
 if (questions.length === 0) {
-  return <h2>Loading...</h2>;
+  return <h2 className='loader'>Loading...</h2>;
 }
 
 // const options = [
