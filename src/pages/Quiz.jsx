@@ -21,30 +21,6 @@ const Quiz = () => {
   Sports: 21,
 };
 
-//   const questions = [
-//   {
-//     question: "What is React?",
-//     options: [
-//       "Library",
-//       "Framework",
-//       "Database",
-//       "Browser"
-//     ],
-//     answer: "Library"
-//   },
-
-//   {
-//     question: "What is HTML?",
-//     options: [
-//       "Language",
-//       "Database",
-//       "Server",
-//       "Browser"
-//     ],
-//     answer: "Language"
-//   }
-// ];
-
 const [current, setcurrent] = useState(0);
 const [answer,setanswer] = useState("");
 const [score, setscore] = useState(0);
@@ -107,11 +83,6 @@ if (questions.length === 0) {
   return <h2 className='loader'>Loading...</h2>;
 }
 
-// const options = [
-//   ...questions[current].incorrect_answers,
-//   questions[current].correct_answer
-// ];
-  
   return (
     <div className='quiz'>
         <h2>Question {current+1}/{questions.length}</h2>
@@ -127,12 +98,7 @@ if (questions.length === 0) {
               )
             )
         }
-        
-      {/* { current < questions.length - 1 && 
-         (<button className='btnnxt' onClick={
-          () => {setcurrent(current+1)}}>Next</button>)
-      } */}
-       
+               
      {
        current < questions.length - 1 ? (
        <button
@@ -170,11 +136,7 @@ if (questions.length === 0) {
        </button>
        )
      }
-
-     {/* <p>category: {category}</p>
-     <p>difficulty: {difficulty}</p>
-     <p>amount: {amount}</p> */}
-         
+        
   </div>
   )
 }

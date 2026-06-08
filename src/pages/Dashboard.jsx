@@ -67,20 +67,7 @@ const avgaccuracy =History.length > 0? (totalAccuracy / History.length).toFixed(
               </div>
              <p>{avgaccuracy}</p>
         </div>
-{/* 
-             <h3>Git</h3>
-            <div className="perform">
-                 <div className="fill"></div>
-              </div>
-             <p>40%</p>
-
-             <h3>CSS</h3>
-            <div className="perform">
-                 <div className="fill"></div>
-              </div>
-             <p>100%</p> */}
-        
-        
+       
     </div>
   )
 }
