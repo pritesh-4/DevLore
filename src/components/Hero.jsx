@@ -7,9 +7,9 @@ const Hero = () => {
   return (
     <section className="hero">
 
-      <div className="hero-content">
+      <div className="content">
 
-        <span className="hero-badge">
+        <span className="badge">
            Welcome to DevLore
         </span>
 
@@ -25,7 +25,7 @@ const Hero = () => {
           and track your growth one quiz at a time.
         </p>
 
-        <div className="hero-quote">
+        <div className="quote">
           “The beautiful thing about learning is that
           no one can take it away from you.”
         </div>
@@ -44,15 +44,15 @@ const Hero = () => {
       <div className="hero-image">
         <div className="hero-circle"></div>
 
-        <div className="floating-card">
+        <div className="floating">
           📚 Good Questions
         </div>
 
-        <div className="floating-card">
+        <div className="floating">
           🎯 Track Progress
         </div>
 
-        <div className="floating-card">
+        <div className="floating">
           ⚡ Instant Results
         </div>
       </div>

@@ -22,7 +22,7 @@ The project focuses on practical React concepts including:
 
 ## 🚀 Live Demo
 
-🔗 **Website:** [ADD VERCEL LINK HERE]
+🔗 **Website:** [(https://devlore-ebon.vercel.app/)]
 
 🔗 **GitHub Repository:** [(https://github.com/pritesh-4/DevLore)]
 

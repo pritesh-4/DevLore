@@ -14,6 +14,7 @@ const Dashboard = () => {
   (sum, quiz) => sum + quiz.score,
   0
  );
+ const avgscore =History.length > 0? (totalScore / History.length).toFixed(1): 0;
 
  const totalAccuracy = History.reduce(
   (sum, quiz) => sum + quiz.accuracy,
@@ -24,7 +25,7 @@ const Dashboard = () => {
   ...History.map(quiz => quiz.score)
  );
 
- const avgscore = totalScore/history.length;
+
 const avgaccuracy =History.length > 0? (totalAccuracy / History.length).toFixed(1): 0;
 
  const recentHistory = History.slice(-5);
